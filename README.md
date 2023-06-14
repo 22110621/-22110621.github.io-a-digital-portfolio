@@ -21,10 +21,10 @@ To build a Vite app for production, follow the steps outlined below:
 ## 2. Install Dependencies
 
 - Navigate into the project directory:
-
+`cd <project-directory>`
 
 - Install project dependencies by running:
-
+`npm install`
 
 - This will launch your app in the development mode, allowing you to test and make changes.
 
@@ -32,7 +32,7 @@ To build a Vite app for production, follow the steps outlined below:
 
 - When you're ready to build your app for production, stop the development server if it's still running.
 - Run the following command to generate a production-ready build:
-
+`npm run build`
 
 - Vite will create an optimized build in the `dist` directory.
 
@@ -46,7 +46,7 @@ To build a Vite app for production, follow the steps outlined below:
 
 
 - Start the server by running:
-
+`npm run dev`
 
 - You can now access your production-ready app in the browser using the provided server URL.
 
