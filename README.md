@@ -4,6 +4,24 @@ This is the source code for my digital portfolio
 # Powered by Vite + React
 This portfolio has been created using Vite and React for faster load times
 
+# Why Use React and Vite Over HTML and JS?
+
+Using React and Vite instead of plain HTML and JavaScript offers several advantages:
+
+1. **Efficiency and Performance**: React's component-based architecture and Vite's fast build tool optimize development and result in faster page load times.
+
+2. **Developer Productivity**: React's declarative syntax and vast ecosystem, along with Vite's intuitive development experience, enhance productivity.
+
+3. **Component Reusability**: React promotes modular and reusable UI components, reducing code duplication and improving maintenance.
+
+4. **Developer Tooling and Community Support**: React and Vite provide excellent developer tooling and have active communities, offering resources and solutions.
+
+5. **Scalability and Ecosystem**: React's mature ecosystem and Vite's growing plugin ecosystem support scalability and provide solutions for various application needs.
+
+In summary, using React and Vite empowers developers with efficient workflows, performance optimization, code modularity, and access to a rich ecosystem.
+
+
+
 ## How to build for deployment?
 # Building a Vite App for Production
 
