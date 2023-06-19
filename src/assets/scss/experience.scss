@@ -1,0 +1,58 @@
+:root {
+  --experience-bg: linear-gradient(271deg, #8e54e9 0%, #4776e6 100%);
+}
+
+// Dark Mode
+body[data-theme="dark"] {
+  .experience-list > .ocupation {
+    background: linear-gradient(
+      90deg,
+      rgb(36, 36, 36) 0%,
+      rgb(37, 37, 37) 100%
+    );
+  }
+}
+
+.experience-list {
+  margin-block: 18px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  width: 100%;
+  gap: 48px;
+
+  .ocupation {
+    background: var(--experience-bg);
+    color: ghostwhite;
+    max-width: 100%;
+
+    .ocupation-dates {
+      display: flex;
+      padding: 1rem;
+      justify-content: end;
+    }
+
+    .ocupation-title {
+      padding: 11px;
+      font-size: 25px;
+    }
+
+    .ocupation-detal {
+      padding: 18px;
+    }
+
+    .ocupation-workplace {
+      padding-left: 14px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 38px;
+      left: 50%;
+      margin-block: 3px;
+      border-right: 8px #4776e6 dotted;
+    }
+  }
+}
