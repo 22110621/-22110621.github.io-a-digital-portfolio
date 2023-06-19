@@ -50,7 +50,7 @@ function App() {
           <br />
           <p>I want to help new or experienced IT students or experts, or simpliy someone who needs to deploy infrastructure. By opening doors that will fast track their career and help them to achieve their goals. This project will be a milestone for making cloud technolegy accessable to anyone and anywhere.</p>
           <br />
-          <p>Thi project has been many months in the making and have granted me more knowledge about the cloud, this is an very ambitous project and I want to share my skills and my knowledge in order to make a difference in how we build and deploy applications, websites and servers...                  
+          <p>This project has been many months in the making and have granted me more knowledge about the cloud, this is an very ambitous project and I want to share my skills and my knowledge in order to make a difference in how we build and deploy applications, websites and servers...                  
           </p>
           <br />
           <p>Click for full details <a href="/it/mission" className="link">Mission</a></p>
