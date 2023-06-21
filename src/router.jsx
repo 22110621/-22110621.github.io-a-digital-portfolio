@@ -10,6 +10,7 @@ import Footer from "./footer.jsx";
 import Project from "./viewProject.jsx";
 import NotFound from "./notFound.jsx";
 import Accessibility from "./components/sidebar.jsx";
+import Mission from "./mission.jsx";
 
   const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ import Accessibility from "./components/sidebar.jsx";
       path: "/projects/:project",
       element: <Project />,
       errorElement: <NotFound />
+    },
+    {
+      path: "/it/mission",
+      element: <Mission />
     },
   ]);
 

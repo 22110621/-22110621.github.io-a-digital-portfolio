@@ -1,4 +1,5 @@
 import {  } from 'react'
+import networking from './assets/img/networking/networking.png'
 import './assets/scss/theme.scss'
 import KaliCloudImg from './assets/img/projects/kalicloud.png'
 import Projects from './components/projects'
@@ -41,7 +42,7 @@ function App() {
           <h1>The mission</h1>                
         </div>            
         <div className="hero-image">
-          <img src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Hero Banner Image" />
+          <img src={networking} alt="Hero Banner Image" />
         </div>
         <div className="hero-content">
           <p>My mission is to help people and organizations to achieve their goals and to help them to achieve their goals. I am a self taught developer and I am constantly learning new things and trying to improve myself.</p>
@@ -59,8 +60,8 @@ function App() {
     </div>
     <div className="section">
       <div className="section-content">
-        <h1>This is a section</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, asperiores consectetur nisi mollitia voluptate voluptatum minima ratione voluptatibus consequatur sapiente numquam nulla suscipit! Consequatur consequuntur pariatur id sapiente aut iste.</p>
+        <h1>My work and projects</h1>
+        <p>This is my list of individial projects and my work which I have done in college</p>
       </div>        
       <div className="bubbles">
         <div className="bubble large" />

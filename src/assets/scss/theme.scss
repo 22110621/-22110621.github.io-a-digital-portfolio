@@ -220,7 +220,7 @@ body[data-theme="dark"] {
         }
 
         .hamburger {
-            display: flex;
+            display: none;
             align-items: center;
             height: 100%;
             justify-content: flex-end;
@@ -258,6 +258,9 @@ body[data-theme="dark"] {
 
     	.navigation > .nav {
             display: none;
+        }
+           .navigation > .hamburger {
+                display: flex;
         }
     }
 }
@@ -860,5 +863,20 @@ footer {
         display: flex;
         padding-block: 2rem;
         gap: 3rem;
+    }
+}
+
+.text-content {
+    color: #d8dbe0;
+    padding: 1rem;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        padding-block: 22px;
+    }
+
+    .content {
+        padding: 20px;
     }
 }
