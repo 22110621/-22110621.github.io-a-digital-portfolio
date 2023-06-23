@@ -11,6 +11,8 @@ import Mission from "./mission.jsx";
 import Networking from "./networking.jsx";
 import Experience from "./experience.jsx";
 import Cloud from "./cloud.jsx";
+import Skills from "./skills.jsx";
+import ResourcePage from "./resources.jsx";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
   {
     path: "/it/cloud",
     element: <Cloud />,
+  },
+  {
+    path: "/it/skills",
+    element: <Skills />,
+  },
+  {
+    path: "/resources",
+    element: <ResourcePage />,
   },
 ]);
 

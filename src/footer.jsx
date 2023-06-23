@@ -14,6 +14,9 @@ function Footer() {
         <li>
           <a href="/it/cloud">Cloud</a>
         </li>
+        <li>
+          <a href="/resources">Resources</a>
+        </li>
       </ul>
       <div className="text">
         <h3>Made by JD - Owner of Kali Cloud</h3>

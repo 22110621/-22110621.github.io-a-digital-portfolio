@@ -42,6 +42,9 @@ function Navigation() {
                 <li>
                   <a href="/it/experience">My Experience</a>
                 </li>
+                <li>
+                  <a href="/it/skills">My Skills</a>
+                </li>
               </ul>
             </div>
           </li>
