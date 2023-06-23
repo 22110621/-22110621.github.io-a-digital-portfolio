@@ -4,16 +4,16 @@ const projects = [
     {
         title: "Kali Cloud",
         tag: "Current",
-        image: KaliCloud,
-        shortdescription: "Lorem, ipsum dolor sit amet consectetur",
+        image: "https://yourlawnwise.com/wp-content/uploads/2017/08/photo-placeholder.png",
+        shortdescription: "A Cloud Platform, focused on providing the best",
         url: "cloud",
         homepage: "https://kalicloud.dev"
     },
     {
         title: "Kali Cloud Admin",
         tag: "In progress",
-        image: KaliCloud,
-        shortdescription: "Lorem, ipsum dolor sit amet consectetur",
+        image: "https://yourlawnwise.com/wp-content/uploads/2017/08/photo-placeholder.png",
+        shortdescription: "A project focused on easy management of your products",
         url: "cloud-admin"
     }
 ]
