@@ -171,12 +171,7 @@ export default class Mission extends Component {
               graphics. I also did outline designs for them:
             </p>
             <br />
-            <iframe
-              src="https://drive.google.com/file/d/1TUVER1v3IQwzInGulxoc0N6_KgkU_QEf/preview"
-              width="640"
-              height="480"
-              allow="autoplay"
-            ></iframe>
+            <iframe src="https://drive.google.com/file/d/1TUVER1v3IQwzInGulxoc0N6_KgkU_QEf/preview" width="640" height="480" allow="autoplay"></iframe>
             <p>The final results:</p>
             <iframe
               src="https://drive.google.com/file/d/1xgbjofyIr6RJidYhbtFG8lE_S_zhIQHb/preview"
